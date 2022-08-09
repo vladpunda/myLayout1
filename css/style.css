@@ -30,9 +30,11 @@ ul {
     margin: 0 auto;
     padding: 0 15px;
 }
+
 :root {
-    scroll-behavior:smooth;
+    scroll-behavior: smooth;
 }
+
 @media (max-width:1000px) {
     .conteiner {
         max-width: 678px;
@@ -68,15 +70,17 @@ ul {
     font-size: 16px;
     font-weight: 500;
 }
+
 .button:hover {
     border: solid 1px rgb(252, 201, 101);
     background-color: rgb(252, 201, 101);
     color: rgb(16, 34, 82);
 }
+
 .button:active {
     background-color: rgb(183, 140, 54);
     background-color: rgb(183, 140, 54);
-    
+
 }
 
 .header {
@@ -830,16 +834,19 @@ main {
     border-color: rgba(141, 217, 229, 1);
     background-color: rgba(141, 217, 229, 1);
 }
+
 .group__item-one .button:hover {
     border: solid 1px rgb(113, 210, 225);
     background-color: rgb(113, 210, 225);
     color: rgb(16, 34, 82);
 }
+
 .group__item-one .button:active {
     background-color: rgb(54, 124, 134);
     background-color: rgb(54, 124, 134);
-    
+
 }
+
 .group__item-two {
     border-color: rgba(255, 215, 135, 1);
 }
@@ -853,16 +860,19 @@ main {
     border-color: rgba(254, 185, 204, 1);
     background-color: rgba(254, 185, 204, 1);
 }
+
 .group__item-three .button:hover {
     border: solid 1px rgb(247, 156, 182);
     background-color: rgb(247, 156, 182);
     color: rgb(16, 34, 82);
 }
+
 .group__item-three .button:active {
     background-color: rgb(191, 97, 124);
     background-color: rgb(191, 97, 124);
-    
+
 }
+
 @media (max-width:1000px) {
     .group__text {
         font-size: 14px;
@@ -965,9 +975,11 @@ main {
     font-weight: 400;
     line-height: 23.2px;
 }
+
 .slider {
     overflow: hidden;
 }
+
 .prepod__slider {
     display: flex;
     margin-top: 57px;
@@ -1008,6 +1020,16 @@ main {
     left: -70px;
 }
 
+.slider__btn-wrapper {
+    width: max-content;
+    margin: 0 auto;
+}
+
+.btn__slider {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
 
 @media (max-width:1000px) {
     .prepod {
